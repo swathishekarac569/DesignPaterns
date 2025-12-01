@@ -3,7 +3,7 @@ package CODINGandALGO;
 public class SlidingWindow {
   public static int maxSumSubarray(int[] nums, int k) {
     int windowSum = 0;
-    int maxSum = Integer.MIN_VALUE;
+    int maxSum =0;
 
     // Initialize the first window
     for (int i = 0; i < k; i++) {

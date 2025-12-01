@@ -13,6 +13,8 @@ public class AnagramCheck {
     Arrays.sort(s1Array);
     Arrays.sort(s2Array);
 
+
+
     return Arrays.equals(s1Array, s2Array);
   }
 
@@ -22,4 +24,8 @@ public class AnagramCheck {
 
     System.out.println(areAnagrams(s1, s2) ? "Strings are anagrams." : "Strings are not anagrams.");
   }
+
+
+
 }
+

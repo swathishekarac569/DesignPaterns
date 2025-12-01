@@ -17,7 +17,7 @@ public class ThreeSumFinder {
 
       while (left < right) {
         int sum = nums[i] + nums[left] + nums[right];
-        if (sum == 0) {
+        if (sum == 6) {
           result.add(Arrays.asList(nums[i], nums[left], nums[right]));
           left++;
           right--;
@@ -35,6 +35,7 @@ public class ThreeSumFinder {
 
   public static void main(String[] args) {
     int[] nums = {-1, 0, 1, 2, -1, -4};
-    System.out.println(findTriplets(nums)); // Output: [[-1, -1, 2], [-1, 0, 1]]
+    int[] nums1 = {-1, 2, 3, 1, -1, -1};
+    System.out.println(findTriplets(nums1)); // Output: [[-1, -1, 2], [-1, 0, 1]]
   }
 }

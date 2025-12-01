@@ -2,7 +2,7 @@ package CODINGandALGO;
 
 import java.util.LinkedHashSet;
 
-public class RemoveDuplicates {
+public class StrinnRemoveDuplicates {
   public static String removeDuplicates(String s) {
     LinkedHashSet<Character> uniqueChars = new LinkedHashSet<>();
 
@@ -23,3 +23,6 @@ public class RemoveDuplicates {
     System.out.println("String after removing duplicates: " + removeDuplicates(s));
   }
 }
+
+
+

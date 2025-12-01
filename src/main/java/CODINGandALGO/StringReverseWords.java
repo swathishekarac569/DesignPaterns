@@ -1,6 +1,6 @@
 package CODINGandALGO;
 
-public class ReverseWords {
+public class StringReverseWords {
   public static String reverseWords(String sentence) {
     String[] words = sentence.trim().split(" ");
     int left = 0, right = words.length - 1;

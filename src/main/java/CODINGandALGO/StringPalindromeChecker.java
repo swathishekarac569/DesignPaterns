@@ -1,6 +1,6 @@
 package CODINGandALGO;
 
-public class PalindromeChecker {
+public class StringPalindromeChecker {
   public static boolean isPalindrome(String str) {
     int left = 0, right = str.length() - 1;
 

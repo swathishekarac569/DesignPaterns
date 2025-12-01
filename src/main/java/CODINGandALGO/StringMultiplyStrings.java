@@ -1,6 +1,6 @@
 package CODINGandALGO;
 
-public class MultiplyStrings {
+public class StringMultiplyStrings {
   public static String multiply(String num1, String num2) {
     int len1 = num1.length();
     int len2 = num2.length();
