@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class ThreeSumFinder {
+public class ArrayThreeSumFinder {
   public static List<List<Integer>> findTriplets(int[] nums) {
     List<List<Integer>> result = new ArrayList<>();
     Arrays.sort(nums);

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class TripletWithZeroSum {
+public class ArrayDoubleAndTripletWithZeroSum {
   public static List<List<Integer>> findTripletsWithZeroSum(int[] arr) {
     //List<int[]> triplets = new ArrayList<>();
     List<List<Integer>> triplets = new ArrayList<>();
@@ -26,12 +26,7 @@ public class TripletWithZeroSum {
           triplets.add(Arrays.asList(arr[i], arr[left], arr[right])); // sum of 3 digit
           //triplets.add(new int[]{arr[left], arr[right]}); // sum of 2 digit
 
-/*          while (left < right && arr[left] == arr[left + 1]) {
-            left++;
-          }
-          while (left < right && arr[right] == arr[right - 1]) {
-            right--;
-          }*/
+
           left++;
           right--;
         } else if (sum < 0) {
