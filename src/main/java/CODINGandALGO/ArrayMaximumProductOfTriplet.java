@@ -2,7 +2,7 @@ package CODINGandALGO;
 
 import java.util.Arrays;
 
-public class MaximumProductOfTriplet {
+public class ArrayMaximumProductOfTriplet {
   public static int findMaximumProductOfTriplet(int[] arr) {
     if (arr.length < 3) {
       throw new IllegalArgumentException("Array must have at least three elements");

@@ -2,7 +2,7 @@ package CODINGandALGO;
 
 import java.util.Arrays;
 
-public class AnagramCheck {
+public class StringAnagramCheck {
   public static boolean areAnagrams(String s1, String s2) {
     if (s1.length() != s2.length()) {
       return false;

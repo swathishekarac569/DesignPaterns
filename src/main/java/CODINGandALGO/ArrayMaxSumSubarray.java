@@ -1,6 +1,6 @@
 package CODINGandALGO;
 
-public class MaxSumSubarray {
+public class ArrayMaxSumSubarray {
   public static int maxSubArray(int[] nums) {
     int currentSum = nums[0];
     int maxSum = nums[0];

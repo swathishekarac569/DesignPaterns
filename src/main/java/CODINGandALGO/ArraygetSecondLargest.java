@@ -5,7 +5,7 @@ package CODINGandALGO;
 
 import java.util.Arrays;
 
-class getSecondLargest {
+class ArraygetSecondLargest {
 
   // function to find the second largest element
   static int getSecondLargest(int[] arr) {

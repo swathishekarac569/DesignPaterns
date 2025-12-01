@@ -2,7 +2,7 @@ package CODINGandALGO;
 
 import java.util.Arrays;
 
-public class BubbleSort {
+public class ArrayBubbleSort {
   public static void bubbleSort(int[] mergearray) {
     int n = mergearray.length;
 

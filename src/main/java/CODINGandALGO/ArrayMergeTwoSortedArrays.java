@@ -2,7 +2,7 @@ package CODINGandALGO;
 
 import java.util.Arrays;
 
-public class MergeTwoSortedArrays {
+public class ArrayMergeTwoSortedArrays {
 
   public static int[] mergeTwoSortedArrays(int[] arr1, int[] arr2) {
 

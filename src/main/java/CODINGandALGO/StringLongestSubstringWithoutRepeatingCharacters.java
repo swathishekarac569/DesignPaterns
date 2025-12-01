@@ -2,7 +2,7 @@ package CODINGandALGO;
 
 import java.util.HashMap;
 
-public class LongestSubstringWithoutRepeatingCharacters {
+public class StringLongestSubstringWithoutRepeatingCharacters {
   public static int lengthOfLongestSubstring(String s) {
     HashMap<Character, Integer> map = new HashMap<>();
     int maxLength = 0;

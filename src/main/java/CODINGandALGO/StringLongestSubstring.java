@@ -2,7 +2,7 @@ package CODINGandALGO;
 
 import java.util.HashSet;
 
-public class LongestSubstring {
+public class StringLongestSubstring {
   public static int lengthOfLongestSubstring(String s) {
     HashSet<Character> set = new HashSet<>();
     int maxLen = 0, start = 0;

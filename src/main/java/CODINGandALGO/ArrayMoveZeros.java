@@ -2,7 +2,7 @@ package CODINGandALGO;
 
 import java.util.Arrays;
 
-public class MoveZeros {
+public class ArrayMoveZeros {
   public static void moveZerosToEnd(int[] nums) {
     int index = 0;
 

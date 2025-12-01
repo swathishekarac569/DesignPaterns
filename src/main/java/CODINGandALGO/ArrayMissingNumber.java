@@ -1,6 +1,6 @@
 package CODINGandALGO;
 
-public class MissingNumber {
+public class ArrayMissingNumber {
   public static int findMissingNumber(int[] nums, int n) {
     int expectedSum = n * (n + 1) / 2;
     int actualSum = 0;
