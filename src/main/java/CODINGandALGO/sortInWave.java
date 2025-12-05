@@ -13,7 +13,7 @@ public class sortInWave {
 
   public static void main(String args[]){
     sortInWave ob = new sortInWave();
-    int arr[] = {1, 2, 3, 4, 5};
+    int arr[] = {1, 2, 3, 4, 5}; // output 2 1 4 3 5
     ob.sortInWave(arr);
     for (int i : arr){
       System.out.print(i + " ");

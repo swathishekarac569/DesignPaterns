@@ -21,8 +21,8 @@ public class ArrayReverser {
   public static void main(String[] args) {
     int[] numbers = {1, 2, 3, 4, 5};
     int length1 = numbers.length-1;
-    int length = length1 / 2;
-    for (int i = 0 ; i < length ;i++){
+    int mid = length1 / 2;
+    for (int i = 0 ; i < mid ;i++){
       int temp = numbers[i];
       numbers[i] = numbers[length1];
       numbers[length1] = temp;

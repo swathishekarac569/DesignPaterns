@@ -15,7 +15,7 @@ class ArraygetSecondLargest {
     Arrays.sort(arr);
 
     // start from second last element as last element is the largest
-    for (int i = n - 2; i >= 0; i--) {
+    for (int i = n - 1 ; i >= 0; i--) {
 
       // return the first element which is not equal to the
       // largest element
