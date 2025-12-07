@@ -1,5 +1,7 @@
 package CODINGandALGO;
 
+import java.util.Arrays;
+
 public class SlidingWindow {
   public static int maxSumSubarray(int[] nums, int k) {
     int windowSum = 0;
@@ -21,6 +23,9 @@ public class SlidingWindow {
 
   public static void main(String[] args) {
     int[] nums = {1, 3, 2, 5, 1, 6, 3};
+    Arrays.sort(nums);
+    int peorduct = nums[nums.length - 1] + nums[nums.length - 2] + nums[nums.length - 3];
+    System.out.println("Maximum sum of subarray: "+ peorduct);
     int k = 3;
     System.out.println("Maximum sum of subarray: " + maxSumSubarray(nums, k));
   }
